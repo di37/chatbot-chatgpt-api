@@ -2,7 +2,11 @@
 
 ## Motivation
 
-The launch of ChatGPT had a profound impact on the world, as it enabled countless individuals to benefit from its ability to simplify complex concepts and solve sophisticated problems, ranging from assisting students to improving the operations of large businesses. Now, OpenAI has introduced the ChatGPT API, which allows organizations to seamlessly integrate this technology into their products, that will allow to unlock exponential improvements in functionality and performance of these products.
+The launch of ChatGPT had a profound impact on the world, as it enabled countless individuals to benefit from its ability - to simplify complex concepts and solve sophisticated problems, ranging from assisting students to improving the operations of large businesses. Now, OpenAI has introduced the ChatGPT API, which allows organizations to seamlessly integrate this technology into their products, that will allow to unlock exponential improvements in functionality and performance of these products.
+
+## Task
+
+In this project, we will use ChatGPT API and Gradio to provide Chatbot User Interface. Gradio is library that allows easy-to-use quick demo for using Machine Learning models.  
 
 ## Running API on Docker Container
 
@@ -24,9 +28,12 @@ docker compose build
 
 - Sample as follows.
 
+![alt text](https://github.com/di37/chatbot-chatgpt-api/blob/main/screenshots/sample.png?raw=true)
+
 ## Resources
 
-- Documentation: https://platform.openai.com/docs/guides/chat
+- ChatGPT API Documentation: https://platform.openai.com/docs/guides/chat
+- Gradio Chatbot Documentation: https://gradio.app/creating-a-chatbot/ 
 - ChatGPT Clone Tutorial: https://www.youtube.com/watch?v=n5nn3mQxrE8&ab_channel=1littlecoder
 
 ## Important Note
