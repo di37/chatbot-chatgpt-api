@@ -1,0 +1,8 @@
+services:
+  pythonapp:
+    build: ./
+    image: chatgpt_chatbot
+    ports:
+      - "9001:7000"
+    volumes:
+      - "./items:/app/items"
